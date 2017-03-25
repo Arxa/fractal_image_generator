@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.cpp
+fstream
+-
+Bitmap.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+BitmapInfoHeader.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapInfoHeader.h
+BitmapFileHeader.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapFileHeader.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+string
+-
+cstdint
+-
+bits/unique_ptr.h
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapFileHeader.h
+cstdint
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapInfoHeader.h
+cstdint
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.cpp
+complex
+-
+Mandelbrot.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/main.cpp
+iostream
+-
+cstdint
+-
+Mandelbrot.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+Bitmap.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+
