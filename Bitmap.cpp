@@ -7,7 +7,6 @@
 #include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
 
-
 using namespace arxa;
 using namespace std;
 

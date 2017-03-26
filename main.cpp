@@ -1,45 +1,29 @@
 #include <iostream>
-#include <cstdint>
+#include <memory>
 #include "Mandelbrot.h"
-#include "Bitmap.h"
+#include "ZoomList.h"
+#include "FractalCreator.h"
+#include "Zoom.h"
+#include "RGB.h"
+
 
 using namespace std;
 using namespace arxa;
 
 int main()
 {
-    int const WIDTH = 800;
-    int const HEIGHT = 600;
+    FractalCreator fractalCreator(800, 600);
 
-    Bitmap bitmap(WIDTH,HEIGHT);
+    fractalCreator.addRange(0.0, RGB(0, 0, 0));
+    fractalCreator.addRange(0.05, RGB(255, 99, 71));
+    fractalCreator.addRange(0.08, RGB(255, 215, 0));
+    fractalCreator.addRange(1.0, RGB(255, 255, 255));
 
-    double min = 999999;
-    double max = -999999;
+    fractalCreator.addZoom(Zoom(295, 202, 0.1));
+    fractalCreator.addZoom(Zoom(312, 304, 0.1));
 
-    for (int y=0; y < HEIGHT; y++)
-    {
-        for (int x=0; x < WIDTH; x++)
-        {
-            double xFractal = (x - WIDTH/2 -200) * 2.0/HEIGHT;
-            double yFractal = (y - HEIGHT/2) * 2.0/HEIGHT;
+    fractalCreator.run("fractal_image_output.bmp");
 
-            int iterations = Mandelbrot::getIterations(xFractal,yFractal);
-            uint8_t color = (uint8_t)(256 * (double)iterations/Mandelbrot::MAX_ITERATIONS);
-
-            color = color*color*color;
-
-            bitmap.setPixel(x, y, 0, color, 0);
-
-            if (color < min) min = color;
-            if (color > max) max = color;
-        }
-    }
-
-    cout<<min<<","<<max<<endl;
-
-    bitmap.setPixel(WIDTH/2, HEIGHT/2, 255, 255, 255);
-    bitmap.write("test.bmp");
-
-    cout << "Finished" << std::endl;
+    cout <<"Fractal Image Created!"<<endl;
     return 0;
 }

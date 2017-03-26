@@ -1,3 +1,0 @@
-C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/cmake-build-debug/CMakeFiles/Fractal_Images_Generator.dir
-C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

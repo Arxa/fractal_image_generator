@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Fractal_Images_Generator.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Fractal_Images_Generator.dir/objects.a @CMakeFiles\Fractal_Images_Generator.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\Fractal_Images_Generator.dir/objects.a -Wl,--no-whole-archive  -o Fractal_Images_Generator.exe -Wl,--out-implib,libFractal_Images_Generator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Fractal_Images_Generator.dir\linklibs.rsp

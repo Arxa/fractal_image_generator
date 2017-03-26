@@ -94,10 +94,34 @@
 		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapInfoHeader.h">
 			<Option target="Fractal_Images_Generator"/>
 		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.cpp">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.h">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
 		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.cpp">
 			<Option target="Fractal_Images_Generator"/>
 		</Unit>
 		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.cpp">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.h">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.cpp">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.h">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.cpp">
+			<Option target="Fractal_Images_Generator"/>
+		</Unit>
+		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.h">
 			<Option target="Fractal_Images_Generator"/>
 		</Unit>
 		<Unit filename="C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/main.cpp">
