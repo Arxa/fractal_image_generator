@@ -1,0 +1,106 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.cpp
+fstream
+-
+Bitmap.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+BitmapInfoHeader.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapInfoHeader.h
+BitmapFileHeader.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapFileHeader.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+string
+-
+cstdint
+-
+bits/unique_ptr.h
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapFileHeader.h
+cstdint
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/BitmapInfoHeader.h
+cstdint
+-
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.cpp
+iostream
+-
+assert.h
+-
+FractalCreator.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.h
+string
+-
+memory
+-
+vector
+-
+Zoom.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.h
+Mandelbrot.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+Bitmap.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Bitmap.h
+ZoomList.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.h
+RGB.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.cpp
+complex
+-
+Mandelbrot.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.cpp
+RGB.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.cpp
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.cpp
+ZoomList.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.h
+vector
+-
+utility
+-
+Zoom.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.h
+
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/main.cpp
+iostream
+-
+memory
+-
+Mandelbrot.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Mandelbrot.h
+ZoomList.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/ZoomList.h
+FractalCreator.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/FractalCreator.h
+Zoom.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/Zoom.h
+RGB.h
+C:/Users/arxa/Desktop/C++ Projects/Fractal_Images_Generator/RGB.h
+
